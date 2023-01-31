@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>classList</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <h3>Click on the button to get class value</h3><br>
+    <input type="button" value="clickMe" onclick="getClass()" id="btn" class="myClass">
+    
+   <p>Class list properties</p>
+
+ <input type="button" value="clickMe" onclick="getClass1()" id="btn1" class="myClass1"><br><br>
+
+ <input type="button" value="clickMe" onclick="getClass2()" id="btn2" class="myClass2">
+
+ <h3 onclick="getClass3()" id="btn3" class="myClass3">Rock the world!</h3>
+<div>
+ <h4 class="myClass5 myClass6 myClass7 myClass8" onclick="msg1()">Ramya</h4>
+</div><br><br>
+<div class="form"><br>
+    <form action="register.jsp" name="myform" method="post" onsubmit="return validateform()">
+        Name: <input type="text" name="name"><br/>
+        Password: <input type="password" name="password"><br><br>
+        <input type="submit" value="register">
+    </form>
+</div>
+
+<h3>Click delete button to delete the record.</h3>
+
+<button onclick="DeleteClick()">Delete</button><br><br>
+<button onclick="ConfirmClick()">Confirm</button><br><br>
+<button onclick="ConfirmClick2()">Confirm2</button>
+
+<br><br>
+<p>Click below button to Create folder</p>
+<button onclick="msg()">Create folder</button>
+  <h2></h2>
+
+     <fieldset>
+        <legend>Register here</legend>
+        <p>Here the onblur event is also used</p>
+  <h1>Register User</h1>
+  <dl>
+    <dt>User name:</dt>
+    <dd> 
+        <input type="text" id="txtName" onkeyup="verifyClick()" onblur="changeCase()" placeholder="BLOCK LETTERS">
+    </dd>
+    <dd id="msg"></dd>
+  </dl>
+  <button onclick="verifyClick()">Submit</button>
+</fieldset>
+<br><br>
+
+<h1>Simple project</h1>
+<p>Supply values dynamically</p>
+
+<fieldset>
+   <legend>Choose effects</legend>
+
+<dl>
+    <dt>Font color:</dt>
+    <dd>
+        <select onchange="changeColor()">
+            <option value="">Red</option>
+            <option value="">green</option>
+            <option value="">yellow</option>
+            <option value="">Pink</option>
+            <option value="">blue</option>
+            <option value="">purple</option>
+        </select>
+
+    </dd>
+  </dl>
+</fieldset>
+<h5></h5>
+
+
+
+
+
+
+
+    <script src="./script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+myClass{
+    background-color: moccasin;
+}
+.myClass1{
+    background-color: aqua;
+}
+.myClass3{
+    background-color: magenta;
+}
+.myClass4{
+    background-color: red;
+}
+
+div{
+    border: 1px solid black;
+    /* border-right: 50px; */
+    width: 100px;
+    
+}
+h4{
+    border: 1px solid salmon;
+}
+
+
+.form{
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+}
+fieldset {
+    width: 300px;
+}
